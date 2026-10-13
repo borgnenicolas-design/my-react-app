@@ -9,4 +9,9 @@ function App() {
   );
 }
 
+function SayHello() {
+  const message = "Hello !";
+
+  return <p>{message}</p>
+}
 export default App;
